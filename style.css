@@ -1,0 +1,226 @@
+body{  
+    height: 3500px;   
+}
+
+.carousel-inner{
+    height: 400px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 400px;
+}
+.tabs{
+    margin-top: -15px;
+    background: #333;
+   height: auto;
+   padding-bottom: 20px;
+   color: #fff;
+   padding-bottom: 30px;
+}
+.tabs ul li a{
+    font-weight: bolder;
+}
+
+.brand{
+    height: 230px;
+    width: 100%;
+    text-align: center;
+    background: #333;
+    margin-top: 20px
+}
+.brand h2{
+    color: #fff;
+    padding-top: 20px;
+    margin-bottom: 10px
+}
+.brand i{
+    color: #777;
+    margin-left: 5px;
+    margin-top: 10px;
+   
+}
+.brand i:hover{
+    color: teal;
+}
+
+.cardd{
+    margin-top: 20px;
+    
+}
+
+.brand h2 a{
+    text-decoration-line: none;
+    color: #fff;
+    transition: color 2s ease-in;
+    transition: text-shadow 0.5s ease-in;
+   
+}
+.brand h2 a:hover{
+    color: blue;
+    text-shadow: 1px 3px #ddd;
+}
+.a{
+    margin-top: 20px;
+    display: inline-block;
+    width: 270px;
+    /* height: 300px; */
+}
+.car .card img{
+    width: 270px;
+    height: 300px;
+}
+.navbar-nav li a{
+    color: #ccc;
+    background: #333;
+    border: 0px
+}
+.navbar-nav li a:hover{
+            background: #FFF;
+            color: #333;
+}
+.navbar-brand span{
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 22px;
+   
+}
+.nava{
+    margin-top: 20px;
+}
+/* .navbar-toggler{
+    color: cadetblue;
+    background: red;
+} */
+.navbar-toggler .navbar-toggler-icon{
+    /* color: #fff; */
+    background: #fff;
+}
+.navbar-nav{
+    color: blue;
+}
+.navbar-collapse{
+    color: blue;
+}
+.row img{
+    height: 200px;
+    width: 200px;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+.row img:hover{  
+    opacity: 1;
+    cursor: pointer;
+}
+.progr{
+            height: 400px;
+            background: #333;
+            color: #fff;
+            width: 100%;
+}
+.programs{
+    margin-top: 35px;
+    width: 100%;
+    background: #333;
+   padding-bottom: 30px;
+    color: #fff;
+    overflow-x: hidden;
+    
+}
+.programs h2{
+    padding: 30px 0px
+}
+.programs h3{
+    color: #777;
+    cursor: pointer;
+}
+
+.programs ul li span{
+    color: cornflowerblue;
+}
+.programs ul li{
+    list-style-position: inside
+}
+.join{
+    margin-top: 40px;
+    background: url('photo/Youth-soccer-indiana.jpg');
+    
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+}
+.join button{
+    position: relative;
+    top: 35%;
+    left: 43%;
+    padding: 10px;
+    border-radius: 17px;
+    height: 60px;
+    width: 240px;
+    outline: 0;
+    color : #fff;
+    background: teal;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.join button:hover{
+    background: #333;
+    color: teal;
+}
+.news{
+    margin-top: 40px;
+    background: #333;
+    color: #fff;
+    /* height: 400px; */
+    overflow-x: hidden;
+    padding-bottom: 30px;
+}
+.lve{
+    border-right: 1px solid #fff;
+   
+}
+.news h3{
+    margin-top: 40px
+}
+.new hr{
+    color: #fff;
+    background: #fff;
+    width: 25%;
+}
+.new button{
+    margin-left: 270px;
+    border-radius: 12px;
+    cursor: pointer;
+    background: turquoise;
+    color: #333;
+    outline: 0;
+}
+.lve video{
+    margin-left: 130px;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    
+}
+#par{
+    margin: 0px 20px 20px 20px;
+}
+
+@media screen and (max-width : 600px){
+    .new button{
+        margin-left: 127px;
+    }
+    .row img{
+        margin: auto;
+    }
+    .lve video{
+        margin: auto;
+        height: 200px;
+        width: 300px;
+    }
+    .news{
+        overflow-x: hidden
+    }
+    .join{
+        overflow-x: hidden;
+    }
+}
